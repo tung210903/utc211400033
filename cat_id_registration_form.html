@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Cat City  ID registration</h1>
+    <img src="download.jpg" alt=" Cat photo">
+    <!--
+        input type="text " cho nhập mọi ký tự 
+        input type="number" chỉ cho nhập số 
+    -->
+    <form action="">
+        Name : <br>        
+         <input type="text" name="cat-name">
+        <br>
+
+        Age : <br>
+         <input type="number" name="cat-age" id=""> <br>
+
+         <!-- 
+             input type="radio" chỉ chọn 1 trong nhiều options
+             input type="checkbox" chọn 1 hay nhiều options tuỳ thích 
+         -->
+
+        Gender: <br>
+        <input type="radio" name="Cat-gender" value="Male"> Male
+        <input type="radio" name="Cat-gender" value="Female"> Female
+        <input type="radio" name="Cat-gender" value="Others"> Others
+        <br>
+
+        Fur-color: <br>
+        <input type="radio" name="Cat-fur-color" value="White"> White
+        <input type="radio" name="Cat-fur-color" value="Yellow"> Yellow
+        <input type="radio" name="Cat-fur-color" value="Black"> Black
+        <br>
+
+        Cat loves to : <br>
+        <input type="checkbox" name="Cat-favorite-activities" value="eat">Eat
+        <input type="checkbox" name="Cat-favorite-activities" value="drink-milk">Drink Milk
+        <input type="checkbox" name="Cat-favorite-activities" value="sleep">Sleep
+        <br>
+
+        Cat doesn't loves to : <br>
+        <input type="checkbox" name="Cat-doesn't-loves-to" value="take-a-showr">Take a shower
+        <input type="checkbox" name="Cat-doesn't-loves-to" value="do-excercise">Do excercise
+        <input type="checkbox" name="Cat-doesn't-loves-to" value="hug">Hug 
+        <br>
+
+        Cat breed
+        <select name="cat-breed" id="">
+            <option value="Siamese">Siamese</option>
+            <option value="Persian-Longhair">Persian Longhair</option>
+            <option value="British-Shorthair">British Shorthair</option>
+            <option value="Brittish-Longhair">Brittish Longhair</option>
+            <option value="Sphynx">Sphynx</option>
+        </select>
+        <br>
+
+        <!--
+            input type="password" toàn bộ nội dung nhập vào sẽ ẩn đi 
+        -->
+
+        Cat ID: <br>
+        <input type="password" name="Cat-ID">
+        <br>
+
+        Others information: <br>
+        <textarea name="cat-others-information" id="" cols="30" rows="10"></textarea>
+        <br>
+
+        <!-- 
+            textarea -> cho phép nhập thông tin trong nhiều dòng 
+        -->
+
+        <input type="reset" value="reset">
+
+        <!-- 
+            input type="reset" -> clear form 
+        -->
+        <br> 
+         
+        <button type="submit">Finish</button>
+    </form>
+    <!--
+        Name 
+        Gender
+        species
+        age 
+        eye_color
+        fur_color
+        address
+        favorite things
+        other information
+    -->
+</body>
+</html>
